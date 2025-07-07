@@ -1,0 +1,356 @@
+proxies:
+  - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 1.1MB/s"
+    password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+    port: 31253
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 7.0MB/s"
+    port: 7885
+    reality-opts:
+      public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
+      short-id: 40cb281a
+    server: 45.150.165.121
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
+    network: tcp
+    servername: www.yahoo.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 2627
+    down: '55'
+    name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 1.4MB/s"
+    obfs: ''
+    port: 46938
+    protocol: ''
+    server: 195.154.200.178
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1323
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7法国2 | ⬇️ 5.0MB/s"
+    obfs: ''
+    port: 15010
+    protocol: ''
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    delay: 1367
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 3.5MB/s"
+    network: ws
+    port: 443
+    server: 104.26.12.31
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d
+    ws-opts:
+      headers:
+        HOST: usshs.atlen.dpdns.org
+      path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess
+    servername: usshs.atlen.dpdns.org
+  - name: "\U0001F300其他1-MY | ⬇️ 1.8MB/s"
+    password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    port: 31233
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7法国3 | ⬇️ 1.7MB/s"
+    password: 591ac730-bd6f-11ed-a8bf-f23c91cfbbc9
+    port: 31263
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7法国4 | ⬇️ 1.5MB/s"
+    password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+    port: 31263
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 1.4MB/s"
+    password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+    port: 31253
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F300其他2-MY | ⬇️ 1.6MB/s"
+    password: dcccacba-fa44-11ef-8400-f23c9164ca5d
+    port: 31233
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F300其他3-MY | ⬇️ 1.4MB/s"
+    password: 591ac730-bd6f-11ed-a8bf-f23c91cfbbc9
+    port: 31233
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 1.6MB/s"
+    password: 40639730-e027-11ea-87ad-f23c913c8d2b
+    port: 31253
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F300其他4-MY | ⬇️ 1.5MB/s"
+    password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
+    port: 31233
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7法国5 | ⬇️ 1.2MB/s"
+    password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+    port: 31263
+    server: 183.240.179.89
+    type: trojan
+    udp: true
+  - alpn:
+      - http%2F1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 1.3MB/s"
+    network: ws
+    port: 443
+    server: 172.67.149.202
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+    ws-opts:
+      headers:
+        Host: LlLLLlLLLLLkjh.222560.xyZ
+      path: /1xrOld7e5RpK3I98dxLkez
+    servername: LlLLLlLLLLLkjh.222560.xyZ
+rule-providers:
+  private:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml
+    path: ./ruleset/private.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  cn_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.yaml
+    path: ./ruleset/cn_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  telegram_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/telegram.yaml
+    path: ./ruleset/telegram_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  google_domain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.yaml
+    path: ./ruleset/google_domain.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  geolocation-!cn:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.yaml
+    path: ./ruleset/geolocation-!cn.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  cn_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.yaml
+    path: ./ruleset/cn_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  telegram_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml
+    path: ./ruleset/telegram_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  google_ip:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.yaml
+    path: ./ruleset/google_ip.yaml
+    behavior: ipcidr
+    interval: 86400
+    format: yaml
+    type: http
+  bing:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml
+    path: ./ruleset/bing.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  copilot:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml
+    path: ./ruleset/copilot.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  claude:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
+    path: ./ruleset/claude.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  bard:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BardAI/BardAI.yaml
+    path: ./ruleset/bard.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  openai:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    path: ./ruleset/openai.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  steam:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+    path: ./ruleset/steam.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+proxy-groups:
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: PROXY
+    type: select
+    proxies:
+      - AUTO
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
+    name: AIGC
+    type: select
+    proxies:
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
+    name: Telegram
+    type: select
+    proxies:
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
+    name: Google
+    type: select
+    proxies:
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)香港|Hong Kong|HK|\U0001F1ED\U0001F1F0"
+    name: HK AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)新加坡|Singapore|\U0001F1F8\U0001F1EC"
+    name: SG AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)日本|Japan|\U0001F1EF\U0001F1F5"
+    name: JP AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: "(?i)美国|USA|\U0001F1FA\U0001F1F8"
+    name: US AUTO
+    type: url-test
+    interval: 300
+  - icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    proxies:
+      - PROXY
+      - AUTO
+      - AIGC
+      - Telegram
+      - Google
+      - HK AUTO
+      - SG AUTO
+      - JP AUTO
+      - US AUTO
+    name: GLOBAL
+    type: select
+rules:
+  - 'PROCESS-NAME,subs-check.exe,DIRECT'
+  - 'PROCESS-NAME,subs-check,DIRECT'
+  - 'RULE-SET,private,DIRECT'
+  - 'RULE-SET,bing,AIGC'
+  - 'RULE-SET,copilot,AIGC'
+  - 'RULE-SET,bard,AIGC'
+  - 'RULE-SET,openai,AIGC'
+  - 'RULE-SET,claude,AIGC'
+  - 'RULE-SET,steam,PROXY'
+  - 'RULE-SET,telegram_domain,Telegram'
+  - 'RULE-SET,telegram_ip,Telegram'
+  - 'RULE-SET,google_domain,Google'
+  - 'RULE-SET,google_ip,Google'
+  - 'RULE-SET,geolocation-!cn,PROXY'
+  - 'RULE-SET,cn_domain,DIRECT'
+  - 'RULE-SET,cn_ip,DIRECT'
+  - 'MATCH,PROXY'
